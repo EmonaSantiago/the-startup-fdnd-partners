@@ -1,0 +1,25 @@
+header{
+    min-height: 100px;
+    background-color: aqua;
+}
+
+body{
+    min-height: 400px;
+    margin-top: 3%;
+    background-color: blueviolet;
+}
+
+footer{
+    min-height: 100px;
+    margin-top: 3%;
+    background-color: brown;
+}
+
+header body footer{
+    margin-left: 10%;
+    margin-right: 10%;
+
+    box-shadow: 3px 5px 7px #666666;
+    border: 1px solid black;
+
+}
