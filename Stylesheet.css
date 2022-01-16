@@ -108,13 +108,13 @@ ul {
 
 @media only screen and (max-width: 768px){
 
-    nav{
+    nav {
     position: fixed;
     left: -100%;
-    top: 7em;
+    top: 8em;
     flex-direction: row;
     gap: 1em;
-    margin-right: 1em;
+    margin-right: 0.5em;
 
     }
 }
@@ -127,15 +127,12 @@ ul {
 
 }
 
-@media only screen and (max-width: 768px){
 
-    footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    height: 2em;
-    }
+@media only screen and (max-width: 768px){
+    footer h2{
+       display: flex;
+       margin-left: 8em;
+}
 }
     
 /* Typografie */
