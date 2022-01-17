@@ -2,148 +2,43 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 0;
  }  
 
-header{
-    display:flex;
-    gap:3em;
-    margin-top: 1em;
-    position:fixed;
-}
-
-img{
-    margin: left 1em;
-    margin-top:-6em;        
-    max-width:10em;
-    padding-top: 3em;
-}
-
-nav{
-    margin-left:25em;
-    gap:2em;
-    display:flex;
-    margin-top: 4em;
-    list-style-type: none;
-}
-
-section{
-    position: fixed;
+ body{
+    padding: 1rem;
     display: grid;
-
-}
-
-header, main, footer {
-    line-height: 1.75;
-}
-
-body{
-    margin:0;
+    grid-template-columns: minmax(20rem, 50rem) 20rem;
+    grid-template-areas: "header nav", "main nav", "footer nav";
+    position: relative;
     background-color: #050542;
+    line-height: 1.5em;
+ }
+
+h2{
+    line-height: 2em;
+}
+
+#Header{
+    color: white;
+ }
+
+#Samenwerken{
+    color: white;
+}
+
+#OnzePartners{
+    color: white;
+}
+
+#Werkwijze{
+    color: white;
 }
 
 a{
-    border: 1px solid #66e5bf; padding: 10px; height: 40px;
-    border-radius: 10px;
-}
-
-
-
-span{
-    position:fixed;
-    margin-left:2em;
-    margin-top:5em;
-    color:white;
-}
-
-footer{
-    position: absolute;
-    left: -23em;
-    bottom: 0;
-    width: 100%;
     color: white;
-    text-align: center;
-    list-style-type: none;
 }
 
-footer h2{
-    position: fixed;
-    right: 10em;
-}
-
-footer p {
-    position: fixed;
-
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    }
-    
-
-
-
-/* @Media */
-
-@media only screen and (max-width: 768px) {
-    header{
-    display:flex;
-    gap:1em;
-    margin-top: 1em;
-    position:fixed;
-    }
-
-    img{
-    margin-left:2em;
-    margin-right: -2em;
-    margin-top:0;
-    margin-top:-1em;        
-    max-width:8em;
-    padding-top: 3em;
-    }
-
-    }
-
-
-@media only screen and (max-width: 768px){
-
-    nav {
-    position: fixed;
-    left: -100%;
-    top: 8em;
-    flex-direction: row;
-    gap: 1em;
-    margin-right: 0.5em;
-
-    }
-}
-
-@media only screen and (max-width: 768px){
-    
-    a{
-        border: 1px solid #66e5bf; padding: 10px; height: 60px;
-    }
-
-}
-
-
-@media only screen and (max-width: 768px){
-    footer h2{
-       display: flex;
-       margin-left: 8em;
-}
-}
-    
-/* Typografie */
-
-h2{
+.Footer {
     color: white;
-    }
-    
-    h3{
-        color: #66e5bf;
-    }
-    
-
-
+}
