@@ -37,6 +37,9 @@ Het hernieuwde FDND partners page lijkt erg op de orginele pagina, maar nu aantr
 ## 🔋Gebruik
 
 ## 📚Bronnen
+* https://styleguide.fdnd.nl/
+* https://codeguide.co/
+* https://fdnd.nl/
 
 ## 🚙Licentie
 
