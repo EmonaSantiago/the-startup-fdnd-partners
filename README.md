@@ -15,15 +15,17 @@ Een herontwerp van de FDND Partners pagina. De live code is voor mobile device (
 
 ## 📝Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-Het hernieuwde Partners page van FDND lijkt erg op de orginele pagina.  
+Het hernieuwde FDND partners page lijkt erg op de orginele pagina, maar nu aantrekkelijker. Op de page vind je informatie over het werken met partners.     
 <!-- Voeg een mooie poster visual toe 📸 -->
+<img width="818" alt="PARTNERS info" src="https://github.com/EmonaSantiago/the-startup-fdnd-partners/files/7896178/PARTNERS.png">
 <!-- Voeg een link toe naar Github Pages 🌐-->
+
 
 ## 👀Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
-🟣FDND Styleguide
-🔵HTML
-🔴 CSS
+* 🟣FDND Styleguide
+* 🔵HTML
+* 🔴 CSS
 
 ## 🛠Installatie
 
