@@ -21,6 +21,9 @@ Het hernieuwde Partners page van FDND lijkt erg op de orginele pagina.
 
 ## 👀Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+🟣FDND Styleguide
+🔵HTML
+🔴 CSS
 
 ## 🛠Installatie
 
