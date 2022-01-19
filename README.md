@@ -2,8 +2,9 @@
 
 # FDND PARTNERS
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
+Een herontwerp van de FDND Partners pagina. De live code is voor mobile device (Tot nu toe). 
 
-## Inhoudsopgave
+## 📖Inhoudsopgave
 
   * [Beschrijving](#beschrijving)
   * [Kenmerken](#kenmerken)
@@ -12,21 +13,22 @@
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
-## Beschrijving
+## 📝Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
+Het hernieuwde Partners page van FDND lijkt erg op de orginele pagina.  
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
-## Kenmerken
+## 👀Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
-## Installatie
+## 🛠Installatie
 
-## Gebruik
+## 🔋Gebruik
 
-## Bronnen
+## 📚Bronnen
 
-## Licentie
+## 🚙Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
 
