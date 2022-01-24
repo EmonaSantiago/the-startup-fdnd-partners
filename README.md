@@ -21,7 +21,7 @@ Een herontwerp van de FDND Partners pagina. De live code is voor mobile device (
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 Het hernieuwde FDND partners page lijkt erg op de orginele pagina, maar nu aantrekkelijker. Op de page vind je informatie over het werken met partners.     
 <!-- Voeg een mooie poster visual toe 📸 -->
-<img width="599" alt="Schermafbeelding 2022-01-19 om 11 21 39" src="https://user-images.githubusercontent.com/90447045/150111663-b9688441-1fe1-4924-acc6-117c03552771.png">
+
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
