@@ -33,6 +33,7 @@ Het vernieuwde FDND partners page lijkt erg op de originele pagina, maar nu aant
 * 🟣FDND Styleguide
 * 🔵HTML
 * 🔴 CSS
+* ⚪️ JAVASCRIPT (nog niet klaar)
 
 ## 🛠Installatie
 
