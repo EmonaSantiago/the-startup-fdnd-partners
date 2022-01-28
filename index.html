@@ -13,25 +13,28 @@
 
 <Header id="Header">
     <logo>
-        <img src="https://raw.githubusercontent.com/Qalkem/the-startup-fdnd-partners/1f071a85eb70f530794477c00dd9c001a0f254be/logo%20(1).svg" height="40em" width="300">
+        <img id="Logo" src="https://raw.githubusercontent.com/Qalkem/the-startup-fdnd-partners/1f071a85eb70f530794477c00dd9c001a0f254be/logo%20(1).svg" height="40em" width="300">
     </logo>
     <span>| Frontend Design & Development</span>
 </Header>
 
-    <div class="IMAGE"><img src="https://styleguide.fdnd.nl/IMG_9718.jpg" alt="FDND Studenten" width="350" height="200"></div>
+    <img id="FDNDfoto" src="https://styleguide.fdnd.nl/IMG_9718.jpg" alt="FDND Studenten" width="350" height="200"></div>
    
-    <nav>
-        <a href="#Samenwerken">Samenwerken met FDND</a>
-        <a href="#Partners">Onze Partners</a>
-        <a href="#Werkwijze">WerkWijze</a>
-    </nav>
+  
+<nav>
+    <ul>
+        <li><button class="Samen"><a href="#Samenwerken">Samenwerken met FDND</a></button></li>
+        <li><button class="Part"><a href="#Partners">Onze Partners</a></button></li>
+        <li><button class="Werk"><a href="#Werkwijze">Werkwijze</a></button></li>
+    </ul>
+</nav>
 
 <a name="#Samenwerken"></a>
 
 
 <section id="Samenwerken">
-    <div class="bottom-left"><h1>Samenwerken</h1></div>
-        <h2>Echte opdrachten voor echte opdrachtgevers</h2>
+    <div class="bottom-left"><h2>Samenwerken</h2></div>
+        <h3>Echte opdrachten voor echte opdrachtgevers</h2>
 
         <p>
             Studenten werken bij FDND aan echte opdrachten voor echte opdrachtgevers.
@@ -41,7 +44,7 @@
             worden voorbereid op het werken als Frontender.
         </p>   
         
-        <h2>Convenanten</h2>
+        <h3>Convenanten</h2>
 
         <p> We sluiten convenanten af met meerdere partijen in het bedrijfsleven.
             In een convenant wordt wederzijds de intentie tot intensieve samenwerking
@@ -53,8 +56,8 @@
 <a name="#Partners"></a>
 
 <section id="Partners">
-    <div class="bottom-left"><h1>Onze projectpartners</h1></div>
-        <h2>Onze Partners</h2>
+    <div class="bottom-left"><h2>Onze projectpartners</h2></div>
+        <h3>Onze Partners</h3>
         <p>
             Onze studenten werken aan echte betekenisvolle opdrachten voor onze projectpartners.
             Deze opdrachten bestaan uit verschillende beroepstaken. De beroepstaken vertalen we 
@@ -65,37 +68,44 @@
             van studenten.
         </p>
 
-        <h2>Onze projectpartners</h2>
+        <h3>Onze projectpartners</h3>
+
+<!--
+        <ul>
+            <li><a href="https://oba.nl/" style="background-color: #ffffff;"><img src="https://partners.fdnd.nl/assets/img/partners/oba.png" alt="OBA"></a></li>
+            <li><a href="https://www.amsterdam.nl//" style="background-color: #ffffff;"><img src="https://partners.fdnd.nl/assets/img/partners/gemeente-amsterdam.png" alt="Gemeente Amsterdam"></a></li>
+            <li><a href="https://goodgoodnotbad.com/" style="background-color: #ececec;"><img src="https://partners.fdnd.nl/assets/img/partners/ggnb.png" alt="GoodGoodNotBad"></a></li>
+            <li><a href="https://renewthebook.com/scrollbook/" style="background-color: #ececf0;"><img src="https://partners.fdnd.nl/assets/img/partners/scroll-book.png" alt="Scroll Book"></a></li>
+           
+          </ul>
+-->
 
          <div class="row">
+                <div class="column"><img alt="OBA" src="https://partners.fdnd.nl/assets/img/partners/oba.png" width="100" height="100"><a href="https://www.oba.nl/"></a></div>
                 <div class="column">
-                    <p><a href="https://www.oba.nl/">
-                    <img alt="OBA" src="https://partners.fdnd.nl/assets/img/partners/oba.png" width="100" height="100"></p>
+                    <a href="https://www.amsterdam.nl//">
+                    <img alt="Gemeente Amsterdam" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ooFsLsnV4N6cvmutnu0m4IxltKbrptKO_5yJxcLusBuSQGAKVKHsP23RMhad0-K7FwA&usqp=CAU" width="70" height="70">
                 </div>
                 <div class="column">
-                    <p><a href="https://www.amsterdam.nl//">
-                    <img alt="Gemeente Amsterdam" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ooFsLsnV4N6cvmutnu0m4IxltKbrptKO_5yJxcLusBuSQGAKVKHsP23RMhad0-K7FwA&usqp=CAU" width="70" height="70"></p>
+                    <a href="https://goodgoodnotbad.com/">
+                    <img alt="goodgoodnotbad" src="https://partners.fdnd.nl/assets/img/partners/ggnb.png" width="100" height="100">
                 </div>
                 <div class="column">
-                    <p><a href="https://goodgoodnotbad.com/">
-                    <img alt="goodgoodnotbad" src="https://partners.fdnd.nl/assets/img/partners/ggnb.png" width="100" height="100"></p>
+                    <a href="https://renewthebook.com/scrollbook/">
+                    <img alt="scrollbook" src="https://partners.fdnd.nl/assets/img/partners/scroll-book.png" width="100" height="100"></a>
                 </div>
                 <div class="column">
-                    <p><a href="https://renewthebook.com/scrollbook/">
-                    <img alt="scrollbook" src="https://partners.fdnd.nl/assets/img/partners/scroll-book.png" width="100" height="100"></p></a>
+                    <a href="https://beyco.nl/">
+                    <img alt="Beyco" src="https://media-exp1.licdn.com/dms/image/C560BAQHCp0mC_y8o1w/company-logo_200_200/0/1582042397644?e=2159024400&v=beta&t=VsS_fn9Ox-6IwJwHGdRTALlxaezbgl4Hj_rSfW3tsPg" width="100" height="100"></a>
                 </div>
                 <div class="column">
-                    <p><a href="https://beyco.nl/">
-                    <img alt="Beyco" src="https://media-exp1.licdn.com/dms/image/C560BAQHCp0mC_y8o1w/company-logo_200_200/0/1582042397644?e=2159024400&v=beta&t=VsS_fn9Ox-6IwJwHGdRTALlxaezbgl4Hj_rSfW3tsPg" width="100" height="100"></p></a>
-                </div>
-                <div class="column">
-                    <p><a href="https://beyco.nl/">
-                    <img alt="Game of Tones" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABrVBMVEX///8AAADU1NTPz8/w8PC1tbX39/f6+vqgoKCsrKycnJz09PRSUlKOjo7h4eERERG3t7fo6Oja2trJycmGhoaurq5LS0syMjJ4eHgqKirZ2dlBQUG+vr4YGBiVlZXxWykBZzhjY2Nubm5ycnIAAA3+8QI2NjZeXl4jIyMeHh6JiYk8PDwAAAcAABN/f3/bXzwAGhkACgnAu8B2Li/7ISrwJy3OMDKuIih6JywgGxdyX18kGChRNmRdN3NhHjP/EB/lIR30HCvBLCVhHh1jXGNNLWJiNohmK5tsJqVAKFU8FxXFIjgrExYXFhxlK5FoLIvaHzBeMnsaCBFQNy1qLIZZLaTgIjeRJCbuWDsAFgAxL0ZgL5VAMVEqHkAsFyxbNCP/YRW0RUczMDsaGwYfKh2GQjFKHxqfSy/zYjE0KlwvPXY8Pon/VCIvPJcfOZ+mRhq5TTN0Py8sN6xZQ1j2VDjsXyTLV0F6QyUnK1IcPjDOYi6xRzAbVTRIOh+7uQs0QokvRhmrkS7i5CdfUyNpah6XmRX47BbRxjwvJhMiNCTY3w98ex4AAB4VSy0hNS3PKz45AAAMsklEQVR4nO2ciX8TxxXH9SRZK9u6ZcmyLcuWLHzKArd2UtpS7LbgBoo5kpZASEkDNBRbbtpCCwmFljRp04T8zZ1jj5ndmZG0kjG078vnw8fec34zb957c6wjEQRBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEOT/GSs/HYsV4tZxl+NIGM+1Z8BldqY+kcxFx4+7VMMjV7alLaYajdSyJ7WcO+6iDYVR3m7pYsI5Ek07ElePs2BDIs+aLBX1HU5yhSPHUqahMsKEFIMn8rP0ROzVl2jIsKZKKU9ZK+TUG+9sWBdc0JwcJ+deaWmOgGkqcEl7OgcziqMZzdX57u+z/CZx5K6aClwxnF+rKA6uxNUXT+meEnN1WKMgo71nSLCYMG24oFoLHsuA4iBF63dnksIvKVqpi5OUow9GtJ9Bw3RFoho8ltZ0znHIqh8SA9ESouSdjuIJOGIrXaUKe+g9MuQehW7Wp9XlnYFF4bcYuX/M+WVK16eHBEvL+r2pqLupCupGLMoeWVKorBIrn3ccUqGdTqdXKemKslrN5KjCUr931eldqqqnTkRV4knZUCSFQRJjWeaC0lzkOEk7ygQyKtD4NxMN+qR+70uQBBZgQnGG2vxs8HDVlzKZFZZIJyVFyteczlqzDSATJjKzuur3JtJSRfVtS6DsoVP08Kj3e9SksOJWeR64f0o7aVVSd4+euD5fMzAJ9YhcZIcVZXDlaa/gTE1tOAFQEK5LRwSFIaCvUpqbiQy1OPLWyeApHsL9PZH3KuFyQxvGpNiVYqF6EIXM0Rj6vJIJaqBEJvgHW9wkAo1YsnMX74hB4ZQ0lCEdeG0whSOgtjYjvNUnFdk6s75AT6Sa5airVzgt9+8E89kDt2GfwaLKAwUNDAnfKfq4Ys3XiHRsVpCdqZjTRPJivlHzGX+WXpgOvqlncoY2tKLTGYeCMCG1xFPluFhKmzFW5b5GZO0F0tVUYT3JGGtIGRWJXnXxiWVqKURhPk6Y7tdjROxApUmiI5kxN/2vxNzZxXGnSsrBgNEmhyzaaEIjjrHLUpIzjUpjC/EJM5LPZblFKuJOGPXt9W1fqhodeS8gLIspQdLpFCMQmPhI8fKKjWhx30pNdc29jipcqOZyuZHRspzm+RU2aHpIFE4XCoXiVIg2ZM7PND5jCiWfueKaUbBSSa+hw2XiPJedQ6R0NOeOSY0l9sO0NMBe8g106vT3NLWMCM3metGkUmBwVAGFsoH5RiWOQcy6jZhwbpculnyp1GYTIE8plGkncn1pGH+zqIrQcpllhW1ZoWQ3cadTV13DmHAmSNZEm5YUSllxztcvwc4uwk+GseGhYfQUUCgYdd7vJmJuba3ZjTjutlxadNrToIuHFkiDljh7w0AKi0yCfgzqV5gTi0a9qRhMaQPwhCRmVwTJotv8XFV0aXqFtNEF3z7KqmUghZEuXtivsCxWR87npmhgsG0uxRqRtrLdd2hrusN809hCsotZ5oAHU8j7lXbs7FMYF7ykfVaQX/FKl2G5SUMI8ytC0Q1tSO90Y/4ClzaYwjwY3alP4ZhcMmJSYgoyIzQpEVfMi+1REZypSSGVyAOGVYdJVi4nWoRkgYlQjIQYPoVZuc/SAYYwQyDqJerKC6KbFhMEo8KIReyqMVaru9fUQ8yVCSR4I2r8qaww5k8PaLBJixd7XoKZv5fGsNpwTLYgKwzMoljVWqVdc+qDWopxRrcbVS5RNXfvV7jgr/qSGDAyYkDgE7HiqpXgTAsg5uFx85RwIj5OCDEH5WEntisqS5AVQsBcQAgYNPIIU95p32rImudMqcJlN0GZ6nuur28qdoKimJGXFI6CNK9LobbopM5kbOdEP/teqTqyXnMXBQceX1QtXA4bZ3hSDjSjqDAKAYXxihdOebGF9khKGSdbj7H77CJ/3XJ6pEQd3RFPejPsvkh8mPy2jKdwmrf0ZEx1G2n9XKNNWfB6oriMZtl20iDHorMg80p2tlgLzusmk+5kXnwVPIVOcZX5fdcyWsIPoWckBiTT8Cp1cqnSbtedDSf9zlS9viRGyxBgKcRiyOuMFUu2y3bbLZfbo4EZUQRBEIQxMTEd/R+guqxVOBkMem8munTWOu6CDQ3dNC8ZAiymS9WYDU+ei7E3imJpdVK/opSekYZIbCgefnnu+Mgv6SayfeswfGH6jdxBqp53icR9q5q9KcyUVuvlmVRl7BUMx3umqp6A88/ojHdXGLe3KHHqJpEF1cHx9mqa0vbfmUj4xpVF7aRhbDSdriVzBWko2pvldVVoOatNp05t8B+W9RpLyvUBi3/FEdguHk+DD81ja94V/Y92unma79lP/v7m5ubWW2//4HSrBfBD3Zh+RLObmj5BtfOUblmD7CyFzvr757k4cXIqmUlE8rRC+h+udmlDOr3yox+fOQ3wk62z2+Tfzk9/Bi3tHPSIPNvmQpe/lTOeJUF6Tb13adybho6Gmfw2K/w5QOvc+d1fnH8H4MKVze2dra3NrYu/BN0cNJ26VxXTqNCdJVlSTpzWBdNMhti7Z1TYALh0Zm9v7/Le3jmA01d2tnd2djbPvkVvUeZMbAeSIhL3prCo6mRxqXvq1lcMmPrhGLHQq7t7ly8ThZevbsDGlU2icHvzImxovALfoxfcQtibQkvVveV17xA7pg0KC8QJXN2l8nY/IJy5tkEkbm/vbL4N2Xd9O3tsuMLg7FxvCpWUQjlQAYPCRYAze7vvUSvdJf/96iq0Zn99lii8Dhfev9FSfSxEFa4p/OYACmnirKrMntErJI+++QGx0N2981fP3br14W8+hGbzwtbO1s51uP3Rb5X7cKjCksKpD6CQrf4NkkoltAo/huZ7VN2tO2JMvn525+xduHcw9zvVe0dYL2wHyjSAQr5Re4AVUq1C0gtv7Z57xxZWYk7Ayi/Dxe2tDfjk4OAT1WcaXCGLopIND6KQZ87h1w+1CmmmdImdXM96HSEDp3ZIsDg5d3C/qXCntkJW72LEHEShvf4TuhW1Ckku2aIif/9g/5IbLy0i/Pp1OHVwf+7gXUWm6SikYVqMmEaFXRdI+R7JsA6VK1QEInq4dfNBp3N4UwpwZJzRujdH+EMrGPhchWzXvifR3IbWOCNa0bXmmDoG9YZOIbH+9ccPDg87zzuyNVKb+ZQq/FSRg3oKZVFGhR7aj1X5527KlLcrOoXTAI87nef7nc5jX+V9DHCfKjypiFOCQkmVViG9gX/FZu5rvC/qv5I0oFMYA3hwuH/Y6XSyLX+h/vgRVfi+YreYqJDuEMvaHdyo0E4PMmumtDoWWqJOYZQqfN55/qfH/sj+Z+JJHz18+OizVvCFkkK6+2KFP9mo0DUR48AhE9ZQdQrzxEoP9zv7xEhlKy3A7YdzDx89OviLYv+0rJDmfbx6elNoTqvzIT2qwZeSfrjfee4/XYaTB3MfHZz8KxlgBHZu+RRaU/a4vTeFXWCtuNb9Oh9ahctM4eEDOLUo2kaR5KRzc5/fhlZTMaXgUxixlvlmq6Eo5PtZ+o78WoVt2CCOtHMTnszfENx4Fj77/N4GNFvrqkTBrzCSyLItc8NRyFKlvjdQaRUWqavpdC7By/mnXkRchSZLBf727JlqK1xAIRu7LA1LYSbw+B7QKiQd8WaHdsOn8/NPiP0vNRr18h0ygILW3//x4sSJL1SzZ0GFLHGu1IejkG7DHV4b0lRpv/MA1ucJl+ykozn7zy+ffXWC8EKVeKsUOh+0hVUo9fVUCGeqV0ga8ePDx3CDKiRdEf71FZNm829FVqpW6GxDDqlQirlTIf6EhUFhjvTEm/A1U/h0A1r/EQR+A03VpzZKhbZErULB7hSrAlkhWc2ESb8NCsn4oHnJVki8TfPbF67AL5stpdtWK/Tvlvbd4Cm0FAtmwldiiRXNPl8jJoUkJrZaL+dtidea3z5zWnBdswKb0zi7gk4h+zzQHWUtKpIykhbZ54l3XwuxjdGokLr6a/OORBLavjlB+uJXX2idtn8TrUtUo5CvufDcKD+leirdi1ofiRVHJ41f2ekxKowk6HfmT57aGr+G9TsvTnxJsxm1zxa2o8pYZGygUpix/SzUazUaMxWrN5a7nTClXLvrSre1J7bv9O5LLvJJC5rrzXVYV69ajEKWol5gzyn6bZLfQO8hkP+VQ+DYwlR2qp4MO1HDB9mGv3VV5FsVZ099993du2Tgr7PD15W8KRzbVNdAZGKgDwNeNd6f+zEmQ/nROvveHMqrr9NCfg/kvX001a4to1wZQhAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQZCj4r9h9g83HETr2QAAAABJRU5ErkJggg==" width="100" height="100"></p></a>
+                    <a href="https://beyco.nl/">
+                    <img id="Game" src="data:image/png;base64,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" alt="Game of Tones" width="100" height="100"></a>
                 </div>
          </div> 
-    
+  
 
-        <h2>Partners uit het werkveld</h2>
+        <h3>Partners uit het werkveld</h3>
 
         <p> 
             Met partners uit het werkveld werken we samen aan de ontwikkeling en uitvoering van 
@@ -107,7 +117,7 @@
             kennen.
         </p>
 
-        <h2>Talks en workshops</h2>
+        <h3>Talks en workshops</h3>
 
         <p>
             Om studenten uit te rusten met de kennis en vaardigheid om leertaken te volbrengen bieden 
@@ -115,7 +125,7 @@
             georganiseerd voor de behandeling van terugkerende taakaspecten.
         </p>
 
-        <h2>Co-teaching</h2>
+        <h3>Co-teaching</h3>
 
         <p>
             Experts zijn als co-teacher, naast de de docent, voor de duur van een semester, nauw betrokken
@@ -129,7 +139,7 @@
             in het vakgebied.
         </p>
 
-        <h2>Stages</h2>
+        <h3>Stages</h3>
 
         <p>
             Bedrijven bieden ruimte aan onze studenten om stage te lopen. Dat kan bijvoorbeeld tijdens het 
@@ -137,7 +147,7 @@
             leren, dat kan bijvoorbeeld in de vorm van een stage als Frontender bij een internetbureau.
         </p>
         
-        <h2>Onze werkveldpartners</h2>
+        <h3>Onze werkveldpartners</h3>
 
         <p>werkveldpartners Afbeeldingen</p>
 
@@ -146,7 +156,7 @@
 <a name="#Header"></a>
 
 <section id="Werkwijze">
-    <div class="bottom-left"><h1>Werkwijze</h1></div>
+    <div class="bottom-left"><h2>Werkwijze</h2></div>
         <p>
             De opleiding is verdeeld in sprints van drie weken. Elke sprint heeft een thema waarin bijbehorende 
             opdrachten worden aangeboden. Samen met de opdrachtgever bepalen we in een aantal sessies in welke 
@@ -162,20 +172,24 @@
 
 <div class="Footer">
 
-        <h1>FDND microsites</h1>
+        <h2>FDND microsites</h2>
 
         <p>
             FDND maakt gebruik van microsites. Microsites zijn kleine websites ter ondersteuning van een campagne, 
             informatie over een product, dienst of voor een ander specifiek doel.
         </p>
-
-        <a href="https://fdnd.nl/">FDND.nl</a>
-        <a href="https://contact.fdnd.nl/">Contact en routebeschrijving</a>
-        <a href="https://programma.fdnd.nl/">Programma</a>
-        <a href="https://skc.fdnd.nl/">Studie Keuze Check</a>
-        <a href="https://partners.fdnd.nl/">Partners</a>
-        <a href="https://tasks.fdnd.nl/">leertaken</a>
-        <a href="https://styleguide.fdnd.nl/">Styleguide</a>
+<nav>
+    <ul>
+        <li><a href="https://fdnd.nl/">FDND.nl</a></li>
+        <li><a href="https://contact.fdnd.nl/">Contact en routebeschrijving</a></li>
+        <li><a href="https://programma.fdnd.nl/">Programma</a></li>
+        <li><a href="https://skc.fdnd.nl/">Studie Keuze Check</a></li>
+        <li><a href="https://partners.fdnd.nl/">Partners</a></li>
+        <li><a href="https://tasks.fdnd.nl/">leertaken</a></li>
+        <li><a href="https://styleguide.fdnd.nl/">Styleguide</a></li>
+    </ul> 
+</nav>
+        
 
 </div>
 
@@ -183,9 +197,7 @@
 
     <div class="CreatingTomorrow"><p>Creating Tomorrow</p></div>
 
-    <button>
-        <a href="#Header">Terug naar boven</a>
-    </button> 
+    <button class="NaarBoven"><a href="#Header">Terug naar boven</a></button> 
    
 </body>
 </html>

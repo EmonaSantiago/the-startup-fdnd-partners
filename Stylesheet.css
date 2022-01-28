@@ -20,16 +20,33 @@
     height: 10em;
     width: 12em;
     margin-top: -2.7em;
-    margin-left: 1em;
+    margin-left: 2em;
 }
+
+#Game{
+    height: 7em;
+    width: 9em;
+    margin-top: -2.7em;
+    margin-left: 2em;
+}
+
+
 
 span{
     margin-top: 0.8em;
 }
 
+#FDNDfoto{
+    width: 100%;
+    height: 15em;
+    border-radius: 1.5em;
+    margin-bottom: 1em;
+    margin-left: 0em;
+}
+
 .IMAGE img{
     width: 100%;
-    height: 12em;
+    height: 15em;
     border-radius: 1.5em;
     margin-bottom: 1em;
     margin-left: 0em;
@@ -47,7 +64,7 @@ Header{
     animation: 5s linear infinite; 
  }
 
-
+/*
  nav a{
     border-radius: 15px;
     border: 2px solid #66e5bf;
@@ -59,7 +76,7 @@ Header{
   }
   
   
-  /*
+  
  nav a{
     margin-top: 1em;
     color:turquoise;
@@ -73,10 +90,66 @@ Header{
     z-index: 10;
 }
 */
+
+button{
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+a{
+    color: #050542;
+}
+
+a:hover{
+    color: white;
+}
+
+.Samen{
+   border-radius: 0.9em;
+   margin-right: 0.6em;
+   text-align: center;
+   padding: 0.5em 0.6em;
+   background-color: #a675f5;
+   border: 2px solid white;
+}
+
+.Samen:hover{
+    background-color: #050542;
+    color: white;
+    border: 2px solid white;
+}
   
-  button{
-    border-radius: 25px;
-    border: 2px solid #a675f5;
+.Part{
+    border-radius: 0.9em;
+    margin-right: 0.6em;
+    text-align: center;
+    padding: 0.5em 0.6em;
+    background-color: #a675f5;
+    border: 2px solid white;
+ }
+ .Part:hover{
+    background-color: #050542;
+    color: white;
+    border: 2px solid white;
+}
+
+.Werk{
+  border-radius: 0.9em;
+  text-align: center;
+  padding: 0.5em 0.6em;
+  background-color: #a675f5;
+  border: 2px solid white;
+}
+.Werk:hover{
+    background-color: #050542;
+    color: white;
+    border: 2px solid white;
+}
+
+
+  .NaarBoven{
+    border-radius: 0.9em;
+    border: 2px solid white;
     padding: 0.2em; 
     width: 40%;
     height: auto; 
@@ -86,11 +159,14 @@ Header{
 }
 
 
-h2{
-    line-height: 2em;
+h3{
+    line-height: 1em;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
 }
 
-h1{
+h2{
     color: white;
     /*margin-top: 1em;
     margin-bottom: -1em;
@@ -99,6 +175,7 @@ h1{
 
 #Samenwerken{
     color: #050542;
+    margin-top: 1.5em;
 }
 
 #Partners{
@@ -108,11 +185,11 @@ h1{
 #Werkwijze{
     color: #050542;
 }
-
+/*
 a{
     color: #050542;
 }
-
+*/
 .Footer a {
     color: #a675f5;
 }
@@ -153,6 +230,7 @@ section{
     float: left;
     width: 33.33%;
     padding: 5px;
+    margin-left: -1.7em;
   }
 
   .row::after {
@@ -167,17 +245,77 @@ section{
 
 
 section{ 
-    position:relative; background-color:#66e5bf; padding:0px; padding-left: 0em; margin:0.5em; float:right; border-radius: 1em;
+    position:relative; 
+    background-color:#66e5bf; 
+    padding:0em; padding-left: 0em; 
+    margin:0.5em; float:right; 
+    border-radius: 1em;
 }
 
-section:before {
-     content:""; display:block; width: 10em; height: 2em; background-color:#050542; /*position: absolute*/; top:-2px; right:-2px; color: white;
-    }
+#Samenwerken::before{
+    content:""; display:block; width: 11em; height: 2em; background-color:#050542; /*position: absolute*/; top:-2px; right:-2px; color: white;
+}
 
-h1{
+#Partners::before {
+    content:""; display:block; width: 16em; height: 2em; background-color:#050542; /*position: absolute*/; top:-2px; right:-2px; color: white;
+}
+
+#Werkwijze::before {
+    content:""; display:block; width: 8em; height: 2em; background-color:#050542; /*position: absolute*/; top:-2px; right:-2px; color: white;
+}
+
+
+h2{
     position: absolute;
     color: white;
     position: absolute;
     margin-top: -1.2em;
       }
+
+li{
+    list-style: none;
+    float: left;
+}
+      
+p{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+}
+/*
+section#onze-partners ul {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:.5rem;
+    list-style:none;
+    margin:0;
+}
+section#onze-partners section:nth-of-type(2) ul {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+section#onze-partners ul li {
+    margin-bottom: 0;
+}
+section#onze-partners ul a {
+    display:block;
+    background-color:rgba(0,0,0,.1);
+    border-radius: var(--rounded);
+    display: flex;
+    padding:.5rem 0;
+    justify-content: center;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+*/
+ul{
+    margin-top: 0em;
+}
 
