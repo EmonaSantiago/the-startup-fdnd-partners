@@ -8,7 +8,6 @@
  body{
     padding: 1rem;
     display: grid;
-
     position: relative;
     line-height: 1.5em;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
@@ -17,19 +16,55 @@
 
  /*header*/
  img{
-    height: 10em;
+    height: 5em;
+    width: 6em;
+    margin-top: -1em;
+    margin-left: 2em;
+}
+
+#Workshop{
+    float: right;
+    margin: 1em;
+    width: 10em;
+    height: 9em;
+    border-radius: 1em;
+}
+
+#Logo{
+     height: 10em;
     width: 12em;
     margin-top: -2.7em;
     margin-left: 2em;
+margin-bottom: -2em;
 }
+
 
 #Game{
-    height: 7em;
-    width: 9em;
-    margin-top: -2.7em;
-    margin-left: 2em;
+    height: 4.1em;
+    width: 6em;
+    margin-top: -0.5em;
+    margin-left: 1.5em;
 }
 
+#Beyco{
+    height: 4em;
+    width: 4.2em;
+    margin-top: -0.5em;
+   
+}
+
+#gemeente-amsterdam{
+    height: 4em;
+    width: 4.2em;
+    margin-top: -0.5em;
+}
+
+#goodgoodnotbad{
+    width: 7em;
+    height: 6.3em;
+    margin-top: -1.6em; 
+    margin-left: 1em;
+}
 
 
 span{
@@ -98,6 +133,9 @@ button{
 
 a{
     color: #050542;
+  
+    
+
 }
 
 a:hover{
@@ -158,6 +196,20 @@ a:hover{
     margin-left: 15em;
 }
 
+#sprints{
+    height: 10em;
+    width: 20em;
+    margin: 1em;
+   margin-top: 0em;
+   border-radius: 1em;
+}
+
+#werkveldpartners{
+    width: 20em;
+    height: 15em;
+    margin:1em;
+    margin-top: -1em;
+}
 
 h3{
     line-height: 1em;
@@ -192,6 +244,7 @@ a{
 */
 .Footer a {
     color: #a675f5;
+    margin-right: 1em;
 }
 
 .Footer p {
@@ -281,6 +334,7 @@ p{
     margin-left: 0.5em;
     margin-right: 0.5em;
     margin-bottom: 0.5em;
+    margin-top: 1em;
 }
 /*
 section#onze-partners ul {
