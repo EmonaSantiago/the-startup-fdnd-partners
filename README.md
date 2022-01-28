@@ -3,8 +3,12 @@
 # FDND PARTNERS
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 Een herontwerp van de FDND Partners pagina. De live code is voor mobile device (Tot nu toe).Op de FDND pagina partners kom je informatie te weten over hoe samenwerkingen gaan. De studenten van de FDND werken aan echte betekenisvolle opdrachten voor projectpartners. Hierbij werken zij samen aan de ontwikkeling en uitvoering van het curriculum. 
- 
-<img width="338" alt="Schermafbeelding 2022-01-19 om 11 23 14" src="https://user-images.githubusercontent.com/90447045/150111859-78cfba5a-a340-4d46-ae5e-7f22552e0c3a.png">
+
+<img width="332" alt="Schermafbeelding 2022-01-28 om 18 41 47" src="https://user-images.githubusercontent.com/90447045/151595812-94766471-24a2-47a3-ad9c-8047b08b3828.png">
+<img width="336" alt="Schermafbeelding 2022-01-28 om 18 44 46" src="https://user-images.githubusercontent.com/90447045/151596115-f8331c6e-3017-474a-85ba-1e8c4db7d9ec.png">
+
+
+
 
 + Met een navigatiesysteem door de pagina heen.
 
